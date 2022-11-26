@@ -1,0 +1,493 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669447768557268, "dur": 12249872, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447768558051, "dur": 11978, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447768570033, "dur": 176059, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447768746096, "dur": 2201736, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447770947835, "dur": 9849492, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447780797331, "dur": 9809, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447780808505, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669447770269483, "dur": 639336, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770271439, "dur": 110675, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770865889, "dur": 11447, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770877343, "dur": 31447, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770878931, "dur": 27626, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770921256, "dur": 2677, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669447770918972, "dur": 5033, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447780808755, "dur": 773, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669447771048856, "dur":668871, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447771717755, "dur":106, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669447771717913, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669447771717945, "dur":605, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669447771718627, "dur":1760, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447771720387, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765164, "dur":253, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765418, "dur":51, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765469, "dur":82, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765552, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765571, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765576, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765593, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765599, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765617, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765642, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780765700, "dur":3880, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669447771719975, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447771720438, "dur":15027, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447771735495, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669447771735505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778690390, "dur":1228, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669447778691625, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669447778691849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778692435, "dur":5934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669447778698371, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778698650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778698747, "dur":132576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778831451, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778831670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778831683, "dur":96160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778928039, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669447778928354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778928546, "dur":22134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669447778950776, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778951052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447778951068, "dur":15962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669447778967137, "dur":1014090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669447779981238, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447779981489, "dur":24073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669447780005684, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1669447780005802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447780005816, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1669447780009321, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669447780009437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447780009451, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669447780012418, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669447780012723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669447780012736, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669447780016522, "dur":748694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447771720103, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447771720443, "dur":15063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447771735509, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669447771736044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447778696109, "dur":68835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669447778765051, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669447778765345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447778790207, "dur":28963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669447778819284, "dur":134373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669447778953666, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447778953685, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669447778956616, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669447778956987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447778957003, "dur":30516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669447778987611, "dur":1718041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669447780705660, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669447780705674, "dur":59267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669447780765074, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1669447780765080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447771720178, "dur":280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447771720459, "dur":15050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447771735510, "dur":6928336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778663856, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447778693495, "dur":4541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778698227, "dur":54396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778752632, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447778752653, "dur":40386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778793133, "dur":103489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778896634, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447778896660, "dur":4507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778901268, "dur":42700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778943977, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447778943994, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778946449, "dur":12219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778958677, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447778958697, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669447778961852, "dur":138238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779100099, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779100722, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779106839, "dur":1482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06.exe" }}
+,{ "pid":12345, "tid":3, "ts":1669447779108330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779108347, "dur":3626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06.exe" }}
+,{ "pid":12345, "tid":3, "ts":1669447779112066, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669447779112333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779113053, "dur":229912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669447779343075, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779343553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779344165, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779347095, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779347461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779347641, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779350329, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779350791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779350806, "dur":29847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779380751, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779381111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779381126, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779384224, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779384700, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779384717, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779387553, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779388090, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779388118, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779391050, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779391432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779391449, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779394924, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779395299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779395329, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779398238, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779398807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779398823, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779405447, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779405983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779406000, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779408758, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779409226, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779409290, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779412415, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779412799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779412814, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779416034, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779416557, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779416574, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779419412, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779419774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779419800, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779422741, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779423050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779423064, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779425936, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779426377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779426391, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779429730, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779430181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779430195, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779433993, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779434369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779434385, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779438243, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779438726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779438743, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779441880, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779442324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779442339, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779445592, "dur":2877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779448480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779448497, "dur":5149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779453767, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779454642, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779454660, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779457846, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779458212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779458227, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779460752, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779461152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779461167, "dur":4615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779465891, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779466273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779466287, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779469121, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779469917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779469934, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779473305, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779473715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779473860, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779476811, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779477165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779477179, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779479981, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779480617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779480632, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779483391, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779483799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779483814, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779488016, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779488399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779488418, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779491070, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779491426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779491440, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779494070, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779494392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779494440, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779497818, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779498238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779498254, "dur":57885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779556263, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779556658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779556674, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779560358, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779560823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779560841, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779564103, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779564465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779564484, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779567705, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779568061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779568075, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779571179, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779571712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779571729, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779574816, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779575626, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779575645, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779578742, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779579118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779579132, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779581689, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779582337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779582353, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779585967, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779586371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779586429, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779589436, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779589799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779589813, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779593232, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779593666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779593682, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779597019, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779597383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779597397, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779600940, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779601276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779601289, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779604044, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779604637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779604652, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779608392, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779608766, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779608783, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779611458, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779611827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779611841, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779614636, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779614988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779615002, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779617623, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779617982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779617995, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779620545, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779620922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779620936, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779624073, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779624445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779624459, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779627204, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779627815, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779627833, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779631336, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779631714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779631730, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779634493, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779634854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779634868, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779638136, "dur":3276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779641421, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779641439, "dur":4944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779646496, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779646904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779646920, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779649852, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779650244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779650260, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779653099, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779653459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779653475, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779659475, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779659979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779659996, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779663029, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779663433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779663449, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779666365, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779666798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779666814, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779670057, "dur":1229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779671299, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779671323, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779675704, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779676264, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779676283, "dur":4405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779680825, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779681406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779681428, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779684996, "dur":1536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779686547, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779686570, "dur":5894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779692608, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779693442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779693465, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779696766, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779697136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779697153, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779701441, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779701880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779701899, "dur":112639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779814702, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779815433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779815449, "dur":12805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779828391, "dur":1206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779829606, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779829624, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779832661, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779833419, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779833437, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779837314, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779838328, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779838356, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779842134, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779842677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779842691, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779846677, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779847399, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779847420, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779850534, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779851286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779851328, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779855445, "dur":1354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779856809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779856827, "dur":6165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779863105, "dur":5914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779869032, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779869054, "dur":39933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779909991, "dur":955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779910956, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779911022, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779914370, "dur":981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779915362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779915380, "dur":53243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779968752, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779969414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779969437, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779973412, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779974355, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779974374, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779978189, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779978566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779978582, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669447779981190, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669447779981592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779983246, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669447779986808, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1669447779986901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779987163, "dur":8811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1669447779996089, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669447779996208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779996224, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669447779999633, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669447779999754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447779999775, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669447780004542, "dur":5262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669447780009814, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669447780009831, "dur":8166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669447780018103, "dur":747070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447771720264, "dur":205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447771720470, "dur":15020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447771735495, "dur":6927955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669447778663463, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447778694883, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669447778698217, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669447778698577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447778698693, "dur":118984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669447778817772, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669447778818313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447778818566, "dur":28144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669447778846809, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669447778847202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447778897720, "dur":58826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669447778956659, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1669447778956995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447778957012, "dur":94413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1669447779051559, "dur":616713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669447779668281, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779668298, "dur":6180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669447779674648, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779675277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779675298, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779679328, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779679820, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779679846, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779684054, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779685334, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779685356, "dur":4730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779690255, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779691003, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779691027, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779695750, "dur":1231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779696992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779697012, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779701740, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779702104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779702118, "dur":93075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779795323, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779795641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779795655, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779797847, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779798152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779798167, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779800596, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779800972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779800986, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779804740, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779805049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779805065, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779808166, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779808446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779808460, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779810409, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779810713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779810728, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779812709, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779813054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779813070, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779815632, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779816069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779816085, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779818969, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779819532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779819548, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779822146, "dur":10490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779832642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779832658, "dur":8670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779841597, "dur":2147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779843754, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779843772, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779848872, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779849220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779849235, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779851603, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779851992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779852069, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779856790, "dur":5726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779862526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779862542, "dur":43373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779906014, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779906420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779906437, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779909178, "dur":2321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779911508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779911524, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779916255, "dur":1638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779917903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779917921, "dur":53157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779971242, "dur":10555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447779981802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447779981813, "dur":18563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669447780000634, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669447780001178, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447780001199, "dur":3792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669447780005096, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669447780005241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447780005255, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669447780012037, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669447780012172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669447780012185, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/user/Documents/GitHub/trabajo06/Ejecutable/MacielDominguez_trabajo06_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669447780015901, "dur":749298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669447780774008, "dur":5157, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669447780809728, "dur": 2990, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669447780808478, "dur": 4310, "ph": "X", "name": "Write chrome-trace events", "args": {} },
